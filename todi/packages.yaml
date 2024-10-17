@@ -21,3 +21,8 @@ packages:
     externals:
     - spec: slurm@23-02-6
       prefix: /usr
+  rdma-core:
+    buildable: false
+    externals:
+    - spec: rdma-core@31.0
+      prefix: /usr

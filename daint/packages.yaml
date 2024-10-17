@@ -16,6 +16,11 @@ packages:
     externals:
     - spec: libfabric@1.15.2.0
       prefix: /opt/cray/libfabric/1.15.2.0/
+  rdma-core:
+    buildable: false
+    externals:
+    - spec: rdma-core@31.0
+      prefix: /usr
   slurm:
     buildable: false
     externals:
